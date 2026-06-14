@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <!-- Google tag (gtag.js) - Google Ads Tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11213387429"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-11213387429');
+    </script>
+
+    <!-- Event snippet for outbound click conversion -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-11213387429/gOwNCIn3vb4cEKXt-uIp',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Call tracking with conversion support -->
+    <script>
+    function makePhoneCall(phoneNumber) {
+      var cleanNumber = String(phoneNumber).replace(/[\s\-]/g, '');
+      if (!cleanNumber.startsWith('+') && !cleanNumber.startsWith('00')) {
+        if (cleanNumber.startsWith('965')) {
+          cleanNumber = '+' + cleanNumber;
+        } else {
+          cleanNumber = '+965' + cleanNumber;
+        }
+      }
+      var telUrl = 'tel:' + cleanNumber;
+      
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(telUrl);
+      }
+      
+      setTimeout(function() {
+        window.location.href = telUrl;
+      }, 150);
+      
+      return false;
+    }
+
+    function trackWhatsAppClick(url) {
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(url);
+      }
+      setTimeout(function() {
+        window.open(url, '_blank');
+      }, 150);
+      return false;
+    }
+    </script>
+
+    <!-- Structured Data for SEO (Private Driver & Car Service Kuwait) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "- سيارات خاصة - خدمة توصيل وسائق خاص بالكويت",
+        "description": "أفضل خدمة توصيل موظفين وممرضات وطلبة في الكويت - سائق خاص مع السيارة أو بدون - تأجير سائق محترف - سيارة خاصة فاخرة - خدمة 24 ساعة",
+        "telephone": "+96590947281",
+        "areaServed": "Kuwait",
+        "serviceType": "توصيل موظفين, توصيل ممرضات, توصيل طلبة, سائق خاص, تأجير سائق مع سيارة, سيارة خاصة",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Kuwait"
+        },
+        "openingHours": "Mo-Su 00:00-23:59"
+    }
+    </script>
+
+    <title>سيارات خاصة | خدمة توصيل وسائق خاص بالكويت | توصيل موظفين ممرضات طلبة | 90947281</title>
+    <meta name="description" content="✅ سيارات خاصة - أفضل خدمة توصيل موظفين وممرضات وطلبة بالكويت - سائق خاص مع سيارة أو بدون - تأجير سائق محترف - سيارات خاصة فاخرة - خدمة 24 ساعة - اتصل 90947281">
+    <meta name="keywords" content="توصيل الكويت, توصيل موظفين, توصيل ممرضات, توصيل طلبة, سائق خاص, تأجير سائق, سائق مع سيارة, سيارة خاصة الكويت, رقم سيارة خاصة, خدمة توصيل الكويت">
+    <meta name="location" content="Kuwait">
+
+    <!-- Fonts & Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-blue: #0D47A1;
+            --vibrant-blue: #1565C0;
+            --bright-cyan: #0288D1;
+            --cool-teal: #0097A7;
+            --sunny-yellow: #FDD835;
+            --warm-orange: #FF8F00;
+            --clean-white: #FFFFFF;
+            --soft-bg: #E3F2FD;
+            --text-dark: #0D47A1;
+            --text-gray: #01579B;
+            --call-blue: #00E5FF;
+            --whatsapp-green: #25D366;
+            --accent-coral: #FF5252;
+            --gradient-start: #1565C0;
+            --gradient-end: #0D47A1;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        
+        /* Scrolling Banner */
+        .scrolling-banner {
+            background: linear-gradient(90deg, #FF8F00, #FDD835, #FF8F00);
+            color: #4E2E00;
+            padding: 12px 0;
+            overflow: hidden;
+            font-weight: 800;
+            font-size: 1rem;
+            border-bottom: 3px solid var(--primary-blue);
+            text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+        }
+        
+        .scrolling-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 22s linear infinite;
+            padding-left: 100%;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        /* Navbar */
+        .navbar {
+            background: linear-gradient(135deg, var(--primary-blue), var(--vibrant-blue));
+            color: white;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            border-bottom: 3px solid var(--sunny-yellow);
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            color: var(--sunny-yellow);
+            font-weight: 900;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            background: rgba(0,0,0,0.1);
+            padding: 0.3rem 1rem;
+            border-radius: 50px;
+        }
+        
+        .phone-display {
+            background: var(--sunny-yellow);
+            color: #0D47A1;
+            font-weight: 800;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            padding: 0.6rem 1.4rem;
+            border-radius: 50px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .phone-display:hover {
+            transform: scale(1.05);
+            background: white;
+            color: var(--primary-blue);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(120deg, #0D47A1, #1565C0, #0288D1);
+            color: white;
+            padding: 5rem 2rem 7rem;
+            text-align: center;
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: "🚗 🧑‍✈️ 🚕 🚙";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            font-size: 8rem;
+            opacity: 0.1;
+            white-space: nowrap;
+            pointer-events: none;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 40%, rgba(253,216,53,0.15), transparent);
+        }
+        
+        .hero h1, .hero p, .hero-buttons {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 900;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            animation: fadeInUp 0.8s ease;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 750px;
+            margin: 0 auto 2rem;
+            color: #FFF9C4;
+            font-weight: 600;
+            animation: fadeInUp 1s ease;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.2rem;
+            margin-top: 2rem;
+            animation: fadeInUp 1.2s ease;
+        }
+        
+        .hero-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1rem 2rem;
+            border-radius: 60px;
+            color: white;
+            text-decoration: none;
+            font-weight: 800;
+            transition: all 0.3s;
+            background: var(--call-blue);
+            font-size: 1.2rem;
+            box-shadow: 0 8px 20px rgba(0,229,255,0.4);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .hero-btn:hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.3);
+            filter: brightness(1.05);
+        }
+        
+        .secondary-btn {
+            background: var(--call-blue);
+            animation: pulse 2s infinite;
+        }
+        
+        .whatsapp-btn {
+            background: var(--whatsapp-green);
+            box-shadow: 0 8px 20px rgba(37,211,102,0.5);
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 8px 20px rgba(0,229,255,0.4); }
+            50% { transform: scale(1.05); box-shadow: 0 12px 30px rgba(0,229,255,0.7); }
+            100% { transform: scale(1); box-shadow: 0 8px 20px rgba(0,229,255,0.4); }
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 5rem 2rem;
+            background: linear-gradient(to bottom, #FFFFFF, #E3F2FD);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary-blue);
+            font-size: 2.2rem;
+            font-weight: 900;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #FDD835, #FF8F00, #FDD835);
+            margin: 0.8rem auto 0;
+            border-radius: 10px;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 30px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            transition: all 0.4s;
+            border-bottom: 5px solid var(--sunny-yellow);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(253,216,53,0.15), transparent);
+            border-radius: 50%;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 40px rgba(0,0,0,0.12);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            color: var(--bright-cyan);
+            margin-bottom: 1rem;
+            display: inline-block;
+            background: #E1F5FE;
+            padding: 0.8rem;
+            border-radius: 20px;
+        }
+        
+        .service-list {
+            padding-right: 20px;
+            line-height: 2;
+            font-size: 1rem;
+        }
+        
+        .service-list li {
+            margin-bottom: 0.8rem;
+            position: relative;
+            padding-right: 30px;
+        }
+        
+        .service-list li::before {
+            content: "🚗";
+            color: var(--bright-cyan);
+            font-weight: bold;
+            position: absolute;
+            right: 0;
+        }
+        
+        /* Floating buttons */
+        .floating-btns {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            gap: 1rem;
+        }
+        
+        .floating-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1.2rem 2rem;
+            border-radius: 60px;
+            color: white;
+            background: var(--call-blue);
+            text-decoration: none;
+            font-weight: 800;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .floating-btn:hover {
+            transform: scale(1.08);
+        }
+        
+        .floating-whatsapp {
+            background: var(--whatsapp-green);
+        }
+        
+        .why-us {
+            padding: 5rem 2rem;
+            background: white;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 3rem auto 0;
+        }
+        
+        .feature-item {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(145deg, #FFFFFF, #E3F2FD);
+            border-radius: 40px;
+            transition: all 0.3s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        
+        .feature-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--warm-orange);
+            margin-bottom: 1rem;
+        }
+        
+        /* Types Section - Specialties */
+        .types-section {
+            padding: 5rem 2rem;
+            background: linear-gradient(135deg, #E3F2FD, #FFFFFF);
+        }
+        
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 1.8rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .type-item {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 28px;
+            text-align: center;
+            box-shadow: 0 12px 25px rgba(0,0,0,0.06);
+            transition: all 0.3s;
+            border-bottom: 4px solid var(--bright-cyan);
+        }
+        
+        .type-item:hover {
+            transform: translateY(-6px);
+            background: linear-gradient(145deg, #FFFFFF, #E1F5FE);
+        }
+        
+        .type-item h3 {
+            color: var(--primary-blue);
+            font-weight: 800;
+        }
+        
+        /* Packages */
+        .packages {
+            padding: 5rem 2rem;
+            background: linear-gradient(to bottom, #E3F2FD, #FFFFFF);
+        }
+        
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .package-card {
+            background: white;
+            padding: 2.5rem 2rem;
+            border-radius: 35px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: all 0.3s;
+            border-top: 6px solid var(--warm-orange);
+        }
+        
+        .package-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 45px rgba(0,0,0,0.12);
+        }
+        
+        .package-title {
+            font-size: 1.6rem;
+            color: var(--primary-blue);
+            margin-bottom: 1rem;
+            font-weight: 900;
+        }
+        
+        .package-price {
+            font-size: 1.3rem;
+            color: var(--warm-orange);
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+        
+        .package-features {
+            list-style: none;
+            margin: 1rem 0;
+            text-align: right;
+        }
+        .package-features li {
+            margin-bottom: 0.6rem;
+            padding-right: 1.5rem;
+            position: relative;
+        }
+        .package-features li::before {
+            content: "✅";
+            color: var(--bright-cyan);
+            position: absolute;
+            right: 0;
+        }
+        .package-btn {
+            display: inline-block;
+            padding: 0.9rem 1.8rem;
+            background: var(--call-blue);
+            color: #0D47A1;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 800;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 5px 12px rgba(0,229,255,0.4);
+        }
+        
+        .package-btn:hover {
+            background: var(--whatsapp-green);
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 5rem 2rem;
+            background: linear-gradient(120deg, #FFF9C4, #FFFFFF);
+        }
+        
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 30px;
+            box-shadow: 0 12px 25px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        /* Contact Form */
+        .contact-form {
+            padding: 5rem 2rem;
+            background: #E1F5FE;
+        }
+        
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 40px;
+            box-shadow: 0 20px 35px rgba(0,0,0,0.08);
+        }
+        
+        .form-group {
+            margin-bottom: 1.2rem;
+        }
+        .form-group label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+            color: var(--primary-blue);
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 0.9rem;
+            border-radius: 30px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+        .submit-btn {
+            background: var(--call-blue);
+            color: #0D47A1;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 60px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+            font-size: 1.1rem;
+        }
+        
+        .submit-btn:hover {
+            background: var(--whatsapp-green);
+            color: white;
+            transform: scale(1.02);
+        }
+        
+        .hours-badge {
+            background: var(--sunny-yellow);
+            color: #0D47A1;
+            padding: 0.6rem 1.2rem;
+            border-radius: 50px;
+            font-weight: 800;
+            display: inline-block;
+            margin-top: 1rem;
+            animation: pulse 2s infinite;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .contact-info {
+            background: #FFFDE7;
+            padding: 2rem;
+            border-radius: 35px;
+            text-align: center;
+            margin-top: 2rem;
+            border: 2px solid var(--sunny-yellow);
+        }
+        
+        .search-tags .service-tag {
+            background: linear-gradient(135deg, #1565C0, #0D47A1);
+            color: white;
+            font-weight: bold;
+            border: 2px solid var(--sunny-yellow);
+        }
+        
+        .simple-footer {
+            background: linear-gradient(135deg, #0D47A1, #1565C0);
+            color: white;
+            border-top: 5px solid var(--sunny-yellow);
+            text-align: center;
+            padding: 2rem;
+        }
+        .footer-phone {
+            font-size: 1.3rem;
+            cursor: pointer;
+            margin: 0.5rem 0;
+            display: inline-block;
+            background: var(--sunny-yellow);
+            color: #0D47A1;
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling-banner">
+        <div class="scrolling-content">
+            🚗 مركز سيارات خاصة - خدمة توصيل موظفين وممرضات وطلبة بالكويت - سائق خاص مع السيارة أو بدون - تأجير سائق محترف - سيارات خاصة فاخرة - خدمة 24 ساعة - اتصل الآن: 90947281 🚗
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">🚗 مركز سيارات خاصة - خدمة توصيل وسائق خاص 🚗</div>
+        <div class="phone-display" onclick="makePhoneCall('90947281')">
+            <i class="fas fa-phone-alt"></i> 90947281
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hours-badge">
+            <i class="fas fa-clock"></i> خدمة 24 ساعة | سائقون محترفون | سيارات نظيفة ومكيفة
+        </div>
+        <h1>🚘 مركز سيارات خاص - أفضل خدمة توصيل وسائق خاص بالكويت 🚘</h1>
+        <p>✅ توصيل موظفين - توصيل ممرضات - توصيل طلبة - سائق خاص مع السيارة أو بدون - تأجير سائق محترف - سيارة خاصة فاخرة - خدمة سريعة وآمنة</p>
+        <div class="hero-buttons">
+            <button class="hero-btn secondary-btn" onclick="makePhoneCall('90947281')">
+                <i class="fas fa-phone-volume"></i>
+                اطلب سائق خاص الآن
+            </button>
+            <button class="hero-btn whatsapp-btn" onclick="trackWhatsAppClick('https://wa.me/96590947281')">
+                <i class="fab fa-whatsapp"></i>
+                واتساب فوري | حجز سيارة خاصة
+            </button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="section-title">خدماتنا المتكاملة في التوصيل والسائق الخاص</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-users service-icon"></i>
+                <h3>توصيل موظفين وممرضات</h3>
+                <ul class="service-list">
+                    <li>توصيل آمن للموظفين إلى مقار العمل</li>
+                    <li>خدمة خاصة للممرضات خط سير يومي</li>
+                    <li>سائق خاص مخلص وملتزم بالمواعيد</li>
+                    <li>أسعار تنافسية للعقود الشهرية</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-user-graduate service-icon"></i>
+                <h3>توصيل طلبة ومدارس</h3>
+                <ul class="service-list">
+                    <li>نقل الطلاب من وإلى المدارس والجامعات</li>
+                    <li>سائقين ذوي خبرة وتصاريح أمنية</li>
+                    <li>سيارات مريحة مكيفة مجهزة</li>
+                    <li>متابعة دقيقة لمواعيد الحضور والانصراف</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-car service-icon"></i>
+                <h3>سائق خاص مع السيارة أو بدون</h3>
+                <ul class="service-list">
+                    <li>تأجير سائق مع سيارة فاخرة حديثة</li>
+                    <li>تأجير سائق فقط لسيارتك الخاصة</li>
+                    <li>خدمة 24 ساعة لجميع مناطق الكويت</li>
+                    <li>سائقين محترفين رخص مهنية سارية</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="types-section">
+        <h2 class="section-title">خدمة توصيل وسائق خاص الكويت - من نحن؟</h2>
+        <div class="types-grid">
+            <div class="type-item"><h3><i class="fas fa-id-card"></i> سائقين محترفين</h3><p>جميع السائقين لديهم تراخيص وخبرة طويلة بالطرق</p></div>
+            <div class="type-item"><h3><i class="fas fa-car-side"></i> سيارات خاصة حديثة</h3><p>أسطول سيارات نظيفة ومكيفة صيانة دورية</p></div>
+            <div class="type-item"><h3><i class="fas fa-hand-holding-usd"></i> أسعار تنافسية</h3><p>أفضل أسعار تأجير سائق مع سيارة في الكويت</p></div>
+            <div class="type-item"><h3><i class="fas fa-clock"></i> خدمة 24 ساعة</h3><p>جاهزون للاستجابة الفورية لطلبات التوصيل في أي وقت</p></div>
+            <div class="type-item"><h3><i class="fas fa-shield-alt"></i> تأمين شامل</h3><p>تأمين على السيارات والركاب لكامل الرحلات</p></div>
+            <div class="type-item"><h3><i class="fas fa-route"></i> جميع مناطق الكويت</h3><p>توصيل من وإلى أي منطقة حولي, العاصمة, الفروانية, الأحمدي, الجهراء</p></div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <h2 class="section-title">لماذا مركز راقي هو الأفضل لخدمة التوصيل بالكويت؟</h2>
+        <div class="features">
+            <div class="feature-item"><i class="fas fa-user-check feature-icon"></i><h3>سائقين متفرغين</h3><p>سائق خاص بك طوال اليوم بدون تأخير</p></div>
+            <div class="feature-item"><i class="fas fa-calendar-check feature-icon"></i><h3>حجز مرن</h3><p>عقود شهرية, أسبوعية أو ساعات مفتوحة</p></div>
+            <div class="feature-item"><i class="fas fa-handshake feature-icon"></i><h3>ثقة وموثوقية</h3><p>تعامل احترافي وسجلات نظيفة للسائقين</p></div>
+            <div class="feature-item"><i class="fas fa-map-marked-alt feature-icon"></i><h3>تغطية كاملة</h3><p>نخدم الكويت بالكامل فور وصول المكالمة</p></div>
+        </div>
+    </section>
+
+    <section class="packages">
+        <h2 class="section-title">باقات تأجير السائق والسيارة الخاصة - بأسعار لا تقبل المنافسة</h2>
+        <div class="packages-grid">
+            <div class="package-card">
+                <h3 class="package-title">باقة توصيل يومي (موظفين)</h3>
+                <div class="package-price">أسعار خاصة للعقود</div>
+                <ul class="package-features"><li>توصيل للعمل يومياً (ذهاب وإياب)</li><li>سائق خاص بنفس الموعد يوميًا</li><li>متابعة مواعيد ومرونة في الخطوط</li><li>خصم للاشتراكات الشهرية</li></ul>
+                <button class="package-btn" onclick="makePhoneCall('90947281')">احجز الخدمة</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">باقة سائق مع سيارة فاخرة</h3>
+                <div class="package-price">سيارة خاصة + سائق محترف</div>
+                <ul class="package-features"><li>سيارة حديثة مكيفة ونظيفة</li><li>سائق خاص متفرغ 12 ساعة</li><li>تأمين شامل على الرحلة</li><li>مرونة في أوقات العمل الإضافي</li></ul>
+                <button class="package-btn" onclick="makePhoneCall('90947281')">احجز الخدمة</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">باقة سائق فقط (بدون سيارة)</h3>
+                <div class="package-price">نوفر السائق المثالي لسيارتك</div>
+                <ul class="package-features"><li>سائق خاص يقود سيارتك الشخصية</li><li>فحص رخصة السائق وخبرة</li><li>تغطية تأمينية على السائق</li><li>خدمة شهرية بأرخص الأسعار</li></ul>
+                <button class="package-btn" onclick="makePhoneCall('90947281')">احجز الخدمة</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">عملاء يثقون بخدمات التوصيل - تجارب حقيقية</h2>
+        <div class="testimonials-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+            <div class="testimonial-card"><p class="testimonial-text">"أفضل شركة توصيل موظفين في الكويت، سائق ملتزم ويوصلنا في الوقت المحدد يومياً. تعامل راقي وأسعار مناسبة جداً. شكراً مركز راقي."</p><p class="testimonial-author">- أحمد، شركة خاصة - حولي</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"كنت بحاجة سائق خاص لسيارتي لتوصيل أطفالي للمدرسة، تعاملوا بكل احترافية، السائق محترف وأولاده بأمان. أنصح بهم وبقوة."</p><p class="testimonial-author">- أم عبدالله - السالمية</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"استأجرت سيارة مع سائق لعدة أيام، السيارة نظيفة والسائق خلوق ويعرف الطرق جيداً. رقم سيارة خاصة ممتاز وسعر منافس. سأتعامل معهم مرة أخرى."</p><p class="testimonial-author">- م. فيصل - الفروانية</p></div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <h2 class="section-title">اطلب سيارة خاصة أو سائق فوري | خدمة 24 ساعة</h2>
+        <div class="form-container">
+            <form id="contactForm">
+                <div class="form-group"><label for="name">الاسم الكامل</label><input type="text" id="name" required></div>
+                <div class="form-group"><label for="phone">رقم الهاتف</label><input type="tel" id="phone" required></div>
+                <div class="form-group"><label for="area">المنطقة</label><input type="text" id="area" required></div>
+                <div class="form-group"><label for="service">الخدمة المطلوبة</label><select id="service"><option>توصيل موظفين</option><option>توصيل ممرضات</option><option>توصيل طلبة</option><option>سائق خاص مع سيارة</option><option>سائق خاص بدون سيارة</option><option>سيارة خاصة فاخرة</option></select></div>
+                <div class="form-group"><label for="message">تفاصيل الحجز (عدد الأشخاص, المواعيد, المدة)</label><textarea id="message" placeholder="مثال: أحتاج سائق مع سيارة لمدة 8 ساعات يومياً لتوصيل الموظفين حولي إلى الشويخ"></textarea></div>
+                <button type="submit" class="submit-btn"><i class="fas fa-car"></i> اطلب سائق خاص الآن</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-phone-alt"></i> <strong>اتصل الآن للحجز: 90947281</strong><br>
+            <i class="fab fa-whatsapp"></i> واتساب 24 ساعة: <strong onclick="trackWhatsAppClick('https://wa.me/96590947281')" style="cursor:pointer;">90947281</strong><br>
+            نخدم جميع مناطق الكويت | تأجير سائقين معتمدين | سيارات خاصة فاخرة وبأسعار تنافسية
+        </div>
+    </section>
+
+    <div class="search-tags" style="text-align: center; padding: 2rem;">
+        <h3 style="color:#0D47A1;">كلمات البحث الأكثر شيوعاً لخدمات التوصيل والسيارات الخاصة بالكويت</h3>
+        <div class="tags-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 1rem;">
+            <span class="service-tag" style="background: linear-gradient(135deg, #1565C0, #0D47A1); padding: 10px 20px; border-radius: 30px; color: white; font-weight: bold; border: 2px solid #FDD835;">توصيل موظفين الكويت</span>
+            <span class="service-tag" style="background: linear-gradient(135deg, #1565C0, #0D47A1); padding: 10px 20px; border-radius: 30px; color: white; font-weight: bold; border: 2px solid #FDD835;">توصيل ممرضات</span>
+            <span class="service-tag" style="background: linear-gradient(135deg, #1565C0, #0D47A1); padding: 10px 20px; border-radius: 30px; color: white; font-weight: bold; border: 2px solid #FDD835;">توصيل طلبة</span>
+            <span class="service-tag" style="background: linear-gradient(135deg, #1565C0, #0D47A1); padding: 10px 20px; border-radius: 30px; color: white; font-weight: bold; border: 2px solid #FDD835;">سائق خاص مع السيارة</span>
+            <span class="service-tag" style="background: linear-gradient(135deg, #1565C0, #0D47A1); padding: 10px 20px; border-radius: 30px; color: white; font-weight: bold; border: 2px solid #FDD835;">تأجير سائق</span>
+            <span class="service-tag" style="background: linear-gradient(135deg, #1565C0, #0D47A1); padding: 10px 20px; border-radius: 30px; color: white; font-weight: bold; border: 2px solid #FDD835;">سيارة خاصة الكويت</span>
+            <span class="service-tag" style="background: linear-gradient(135deg, #1565C0, #0D47A1); padding: 10px 20px; border-radius: 30px; color: white; font-weight: bold; border: 2px solid #FDD835;">رقم سيارة خاصة</span>
+            <span class="service-tag" style="background: linear-gradient(135deg, #1565C0, #0D47A1); padding: 10px 20px; border-radius: 30px; color: white; font-weight: bold; border: 2px solid #FDD835;">طلب سيارة خاصة</span>
+        </div>
+    </div>
+
+    <div class="floating-btns">
+        <button class="floating-btn" onclick="makePhoneCall('90947281')"><i class="fas fa-phone"></i> اتصل الآن</button>
+        <button class="floating-btn floating-whatsapp" onclick="trackWhatsAppClick('https://wa.me/96590947281')"><i class="fab fa-whatsapp"></i> واتساب</button>
+    </div>
+
+    <div class="simple-footer">
+        <p>🏆 مركز سيارات خاصة - أفضل خدمة توصيل وسائق خاص بالكويت - توصيل موظفين وممرضات وطلبة - سائق مع السيارة أو بدون - تأجير سيارات خاصة فاخرة - خدمة 24 ساعة 🏆</p>
+        <div class="footer-phone" onclick="makePhoneCall('90947281')"><i class="fas fa-phone"></i> 90947281</div>
+        <p>جميع الحقوق محفوظة © 2026 | مركز سيارات خاصة - ضمان الجودة والموثوقية في خدمات التوصيل والسائق الخاص</p>
+    </div>
+
+    <script>
+        // Handle contact form submission with conversion tracking
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion();
+            }
+            alert('شكراً لتواصلكم معنا! سيتم الاتصال بكم فوراً لتأكيد الحجز وترتيب السائق الخاص.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
